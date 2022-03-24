@@ -1,0 +1,11 @@
+
+create database mdtestdatabase;
+use mdtestdatabase;
+create table users (
+
+	username varchar(20) NOT NULL,
+	password varchar(20) NOT NULL
+
+);
+insert into users values ('demo@techfios.com', 'abc123'), ('demo1@techfios.com', 'abc123'), ('demo@techfios.com', 'abc124')
+;
